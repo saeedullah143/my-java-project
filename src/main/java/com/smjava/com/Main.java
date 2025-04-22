@@ -2,6 +2,7 @@ package com.smjava.com;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        calculatorGUI gui = new calculatorGUI();
+        gui.setVisible(true);
     }
 }
